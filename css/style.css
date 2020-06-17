@@ -1,0 +1,224 @@
+/*-----------------------------------------------------------------------------------*/
+/*	GENERAL STYLING
+/*-----------------------------------------------------------------------------------*/
+::selection {background: #000; color:#fff;}
+::-moz-selection {background: #000; color:#fff;}
+
+footer ::selection {background: #fff; color:#000;}
+footer ::-moz-selection {background: #fff; color:#000;}
+
+.breadcrumbs_block ::selection {background: #fff; color:#000;}
+.breadcrumbs_block ::-moz-selection {background: #fff; color:#000;}
+
+.cleancode_block ::selection {background: #fff; color:#000;}
+.cleancode_block ::-moz-selection {background: #fff; color:#000;}
+
+
+
+body {
+	overflow-x:hidden;
+	position:relative;
+	margin: 0;
+	padding:0;
+	font-family: 'Roboto', sans-serif;
+	font-weight:300;
+	font-size: 13px;
+	line-height: 20px;
+	color: #666;
+	background-color:#fff;
+}
+#page {
+	overflow:hidden;
+	position:relative;
+	z-index:5;
+	height:100%;
+}
+
+a, input, select, textarea {
+	vertical-align:top;
+	outline:none !important;
+	-webkit-appearance: none;
+	-webkit-border-radius: 0;
+}
+
+select:-moz-focusring {
+    color: transparent;
+	outline:none !important;
+    text-shadow: 0 0 0 #000 !important;
+	border:0 !important;
+}
+
+textarea {resize: none;}
+
+img {
+	outline:0;
+	vertical-align:top;
+	border:0;
+	max-width:100.1%;
+	height:auto;
+}
+
+a {color:#999; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out;}
+a:hover, a:focus {text-decoration:none; color:#333;}
+
+
+.center {text-align:center;}
+
+
+h1 {font-size:80px; line-height:80px; font-weight:300; color:#333; margin:0 0 68px;}
+h1 b {font-weight:500;}
+
+
+
+.middle_wrapper a.video_block,
+.middle_wrapper a.image_block {
+	position:relative;
+	display:inline-block;
+	margin:0 37px 0 40px;
+	text-decoration:none;
+}
+.middle_wrapper a.video_block p,
+.middle_wrapper a.image_block p {
+	margin:0;
+	padding:11px 0 0;
+	line-height:34px;
+	font-size:20px;
+	color:#333;
+}
+
+
+.middle_wrapper a.video_block img,
+.middle_wrapper a.image_block img {
+	box-shadow:3px 3px 3px rgba(0, 0, 0, 0.5);
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+}
+
+.middle_wrapper a.video_block:hover img,
+.middle_wrapper a.image_block:hover img {
+	box-shadow:none;
+	transform:scale(0.98);
+	-ms-transform:scale(0.98);
+	-webkit-transform:scale(0.98);
+}
+
+
+
+
+
+/* __________ Logo __________ */
+.logo a {
+	display:inline-block;
+	margin:0 auto 95px;
+	padding:0 28px;
+	text-transform:uppercase;
+	line-height:75px;
+	font-size:26px;
+	color:#333;
+	border:2px solid #333;
+}
+.logo a span {
+	display:inline-block;
+	padding-right:18px;
+}
+.logo a span.last {padding-right:0;}
+.logo a span.b1 {font-weight:900;}
+.logo a span.b2 {font-weight:700;}
+.logo a span.b3 {font-weight:400;}
+.logo a span.b4 {font-weight:300;}
+.logo a span.b5 {font-weight:100;}
+
+
+
+
+
+.middle_wrapper {
+	position:absolute;
+	left:0;
+	top:50%;
+	width:100%;
+	transform:translateY(-50%);
+	-o-transform:translateY(-50%);
+	-ms-transform:translateY(-50%);
+	-webkit-transform:translateY(-50%);
+}
+
+
+
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	RESPONSIVE STYLES
+/*-----------------------------------------------------------------------------------*/
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+	
+
+}
+
+@media (max-width: 1024px) {
+
+	
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+	
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	h1 {font-size:60px; line-height:60px;}
+	
+	.middle_wrapper a.video_block, .middle_wrapper a.image_block {width:160px; margin:0 20px;}
+	.middle_wrapper a.video_block p, .middle_wrapper a.image_block p {font-size:16px; line-height:24px;}
+	
+}
+
+@media (max-width: 767px) {
+	.logo a {margin-bottom:50px;}
+	
+	h1 {font-size:40px; line-height:40px; margin-bottom:50px;}
+	
+	.middle_wrapper a.video_block, .middle_wrapper a.image_block {width:160px; margin:0 20px;}
+	.middle_wrapper a.video_block p, .middle_wrapper a.image_block p {font-size:14px; line-height:20px;}
+	
+}
+
+@media (max-width: 479px) {
+	.middle_wrapper a.video_block, .middle_wrapper a.image_block {width:130px; margin:0 10px;}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
